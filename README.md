@@ -1,4 +1,29 @@
-# ClipStack releases
+# ClipStack
+
+**Copy a few. Paste in order.**
+
+ClipStack is a Windows clipboard manager for people who copy many things and want to find, organize, and paste them without constant back-and-forth.
+
+**[Download the latest Windows installer](https://github.com/FuegoRoseAI/ClipStack-Releases/releases/latest)** · [See all releases](https://github.com/FuegoRoseAI/ClipStack-Releases/releases)
+
+## Why use it?
+
+- **Keep clipboard history:** Capture copied text, links, and images; search earlier items when you need them.
+- **Stay organized:** Pin useful clips and group them into collections.
+- **Paste in order:** Build a queue of clips and paste them sequentially with **Ctrl+Alt+V** instead of switching between windows for every item.
+- **Reuse workflows:** Save sequences of clips for tasks you repeat.
+- **Keep your data local:** Your clipboard history and settings are stored on your computer, not uploaded to an account or cloud service.
+
+## Get started
+
+1. Download the latest `ClipStack-Setup-VERSION.exe` from the release page above.
+2. Install it for your Windows user account, then launch ClipStack.
+3. Copy a few pieces of text or links. Open ClipStack to browse and search your history.
+4. Add items to the paste queue, then use **Ctrl+Alt+V** to paste them in sequence.
+
+**Security note:** Clipboard managers can retain sensitive information that you copy, so avoid copying passwords or confidential data into your history. ClipStack's installer is currently **not Windows Authenticode signed**; Windows may show an unfamiliar-publisher warning. Keep Windows security protections enabled. Release metadata signing protects the updater, but it is not equivalent to a Windows publisher signature.
+
+## Distribution and updates
 
 This is the distribution-only repository for ClipStack, a local Windows clipboard utility. Application source, private signing keys, credentials and user data do not belong in this repository.
 
